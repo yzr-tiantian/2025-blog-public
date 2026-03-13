@@ -265,5 +265,19 @@
 		"url": "https://blog.dumogu.top/",
 		"description": "前端开发，页面小巧，结构简单，寻常记录",
 		"stars": 3
+	},
+	{
+		"name": "清遥",
+		"avatar": "https://upyun.askrabbit.net/avatar.png",
+		"url": "https://blog.askrabbit.net/",
+		"description": "遥夜泛清瑟，西风生翠萝。\n经常跟新自己的学习笔记",
+		"stars": 3
+	},
+	{
+		"name": "译心阁 - 铬中",
+		"avatar": "https://f.mhjz1.cn/cr/2026/01/16/Screenshot_2026_0104_140659.png",
+		"url": "https://www.crzhong.cn/",
+		"description": "钱塘江上潮信来，今日方知我是我\n服务器的代理商，用的是typhco搭建的博客",
+		"stars": 3
 	}
 ]
