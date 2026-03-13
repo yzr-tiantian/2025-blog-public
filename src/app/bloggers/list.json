@@ -280,10 +280,10 @@
 		"status": "disconnected"
 	},
 	{
-		"name": "23朵毒蘑菇",
-		"avatar": "https://blog.dumogu.top/web-assets/v-last/public/user.jpg",
-		"url": "https://blog.dumogu.top/",
-		"description": "前端开发，页面小巧，结构简单，寻常记录",
+		"name": "lvy-neko",
+		"avatar": "https://lvyovo-wiki.tech/images/avatar.png",
+		"url": "https://www.dongyue.blog/bloggers",
+		"description": "编程大佬，github放了很多学习笔记，c++和rust的经验也很多，是个女生",
 		"stars": 3,
 		"status": "disconnected"
 	},
@@ -304,10 +304,10 @@
 		"status": "recent"
 	},
 	{
-		"name": "lvy-neko",
-		"avatar": "https://lvyovo-wiki.tech/images/avatar.png",
-		"url": "https://www.dongyue.blog/bloggers",
-		"description": "编程大佬，github放了很多学习笔记，c++和rust的经验也很多，是个女生",
+		"name": "23朵毒蘑菇",
+		"avatar": "https://blog.dumogu.top/web-assets/v-last/public/user.jpg",
+		"url": "https://blog.dumogu.top/",
+		"description": "前端开发，页面小巧，结构简单，寻常记录",
 		"stars": 3,
 		"status": "disconnected"
 	}
