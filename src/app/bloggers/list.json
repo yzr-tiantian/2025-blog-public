@@ -281,17 +281,10 @@
 		"stars": 3
 	},
 	{
-		"name": "yysuni",
-		"avatar": "https://www.yysuni.com/_next/image?url=%2Fimages%2Favatar.png&w=96&q=75",
-		"url": "https://www.yysuni.com/",
-		"description": "我用的主题就是大佬的，很厉害",
-		"stars": 3
-	},
-	{
 		"name": "lvy-neko",
-		"avatar": "https://lvyovo-wiki.tech/_next/image?url=%2Fimages%2Favatar.png&w=96&q=75",
-		"url": "https://lvyovo-wiki.tech/",
-		"description": "编程大佬，github放了很多学习笔记",
+		"avatar": "https://lvyovo-wiki.tech/images/avatar.png",
+		"url": "https://www.dongyue.blog/bloggers",
+		"description": "编程大佬，github放了很多学习笔记，c++和rust的经验也很多，是个女生",
 		"stars": 3
 	}
 ]
