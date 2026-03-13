@@ -1,13 +1,23 @@
 import { motion } from 'motion/react'
 import { useWriteStore } from '../stores/write-store'
 import { INIT_DELAY } from '@/consts'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
+import { generateSlug } from '../stores/write-store'
 
 const defaultText = 'text'
 
 export function WriteEditor() {
 	const { form, updateForm, images, addFiles } = useWriteStore()
 	const textareaRef = useRef<HTMLTextAreaElement>(null)
+
+	useEffect(() => {
+		if (form.title && !form.slug) {
+			const autoSlug = generateSlug(form.title)
+			if (autoSlug !== form.slug) {
+				updateForm({ slug: autoSlug })
+			}
+		}
+	}, [form.title])
 
 	const insertText = (text: string) => {
 		const textarea = textareaRef.current

@@ -14,6 +14,19 @@ export const formatDateTimeLocal = (date: Date = new Date()): string => {
 	return `${year}-${month}-${day}T${hours}:${minutes}`
 }
 
+export const generateSlug = (title: string): string => {
+	if (!title.trim()) return ''
+	
+	const date = new Date()
+	const pad = (n: number) => String(n).padStart(2, '0')
+	const year = date.getFullYear()
+	const month = pad(date.getMonth() + 1)
+	const day = pad(date.getDate())
+	const seconds = pad(date.getSeconds())
+	
+	return `${year}-${month}-${day}-${seconds}`
+}
+
 type WriteStore = {
 	// Mode state
 	mode: 'create' | 'edit'

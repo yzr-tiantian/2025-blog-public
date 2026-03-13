@@ -12,6 +12,7 @@ interface Blogger {
 	url: string
 	description: string
 	stars: number
+	status?: 'recent' | 'disconnected'
 }
 
 interface CreateDialogProps {
@@ -26,7 +27,8 @@ export default function CreateDialog({ blogger, onClose, onSave }: CreateDialogP
 		avatar: '',
 		url: '',
 		description: '',
-		stars: 3
+		stars: 3,
+		status: 'recent'
 	})
 	const [showAvatarDialog, setShowAvatarDialog] = useState(false)
 
@@ -106,6 +108,24 @@ export default function CreateDialog({ blogger, onClose, onSave }: CreateDialogP
 							</svg>
 						</div>
 					))}
+				</div>
+
+				{/* 状态选择 */}
+				<div className='flex gap-2'>
+					<button
+						onClick={() => setFormData({ ...formData, status: 'recent' })}
+						className={`rounded-full px-3 py-1 text-xs transition-colors ${
+							formData.status === 'recent' ? 'bg-brand text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+						}`}>
+						我的朋友
+					</button>
+					<button
+						onClick={() => setFormData({ ...formData, status: 'disconnected' })}
+						className={`rounded-full px-3 py-1 text-xs transition-colors ${
+							formData.status === 'disconnected' ? 'bg-brand text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+						}`}>
+						大佬博客
+					</button>
 				</div>
 
 				<textarea
