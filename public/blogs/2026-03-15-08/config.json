@@ -1,8 +1,8 @@
 {
-  "title": "zoxide 如何使用",
+  "title": "zoxide 使用记录",
   "tags": [],
   "date": "2026-03-15T00:47",
-  "summary": "zoxide 是一个可以快速跳转到常用文件地址的工具",
+  "summary": "zoxide一个好用的终端目录访问工具，可以快速进入常用的目录",
   "hidden": false,
   "category": ""
 }
