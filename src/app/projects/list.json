@@ -9,5 +9,15 @@
 			"c#",
 			"wpf"
 		]
+	},
+	{
+		"name": "My Docs",
+		"year": 2026,
+		"image": "https://mkdocs-52f.pages.dev/assets/images/favicon.png",
+		"url": "https://mkdocs-52f.pages.dev/",
+		"description": "这是我的一个文档站点，记录我的一些笔记 可以参考下",
+		"tags": [
+			"mkdocs"
+		]
 	}
 ]
