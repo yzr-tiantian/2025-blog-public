@@ -318,5 +318,13 @@
 		"description": "编程大佬，github放了很多学习笔记，c++和rust的经验也很多，是个女生",
 		"stars": 3,
 		"status": "disconnected"
+	},
+	{
+		"name": "许家大院",
+		"avatar": "https://blog.hesuisui.top/upload/ok-logo.png",
+		"url": "https://blog.hesuisui.top",
+		"description": "和岁岁写字玩儿的地方。\n写了很多的故事挺有趣的",
+		"stars": 3,
+		"status": "recent"
 	}
 ]
